@@ -7,6 +7,5 @@ function ProjectsController($http, $stateParams, $state) {
     //base urL?
 
   vm.$onInit = function() {
-    console.log("what up from projects");
   }
 }

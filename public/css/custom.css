@@ -10,13 +10,28 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #24b8c6;
   font-family: earth, Helvetica, Arial, sans-serif;
+}
+
+p, a {
+  font-family: nasa, Helvetica, Arial, sans-serif;
+}
+
+.ink-navigation ul.menu.black li ul.submenu {
+  background-color: #747e80;
 }
 
 @font-face {
     font-family: earth;
     src: url(earth.ttf);
-    font-weight:400;
+    font-weight:500;
+}
+
+@font-face {
+  font-family: nasa;
+  src: url(nasa.ttf);
+  font-weight: 400;
 }
 
 .ink-navigation ul.menu.black {
@@ -116,6 +131,31 @@ a:hover {
   margin-top: 7em;
   border: 1px;
   border-bottom: double;
+}
+
+
+.project-link {
+  animation: shake 1s alternate infinite;
+  animation-play-state: paused;
+}
+
+.project-link:hover {
+  animation-play-state: running;
+}
+
+@keyframes shake {
+  25% {
+    padding-left: 15px;
+  }
+  50% {
+    padding-right: 15px;
+  }
+  75%{
+    padding-left: 10px;
+  }
+  99%{
+    padding-right: 10px;
+  }
 }
 
 .little {
@@ -309,7 +349,8 @@ a:hover {
 
 
 .pad-me {
-  padding: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
 .hide {

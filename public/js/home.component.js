@@ -6,8 +6,6 @@ function HomeController($http, $stateParams, $state) {
   const vm = this
 
   vm.$onInit = function() {
-
-    console.log("waddup home controller");
   }
 
 }
