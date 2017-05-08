@@ -11,11 +11,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #24b8c6;
-  font-family: earth, Helvetica, Arial, sans-serif;
+  font-family: elitedanger, Helvetica, Arial, sans-serif;
 }
 
 p, a {
-  font-family: nasa, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .ink-navigation ul.menu.black li ul.submenu {
@@ -23,8 +23,8 @@ p, a {
 }
 
 @font-face {
-    font-family: earth;
-    src: url(earth.ttf);
+    font-family: elitedanger;
+    src: url(elitedanger.ttf);
     font-weight:500;
 }
 
