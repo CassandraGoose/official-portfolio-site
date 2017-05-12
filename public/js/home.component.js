@@ -6,11 +6,11 @@ function HomeController($http, $stateParams, $state) {
   const vm = this
 
   vm.$onInit = function() {
-    console.rand("It's like everyone tells a story about themselves inside their own head.")
-    console.rand("Always. All the time.");
-    console.rand("That story makes you what you are.")
-    console.rand("We build ourselves out of that story.")
-    console.rand("(Patrick Rothfuss)")
+    console.static("It's like everyone tells a story about themselves inside their own head.")
+    console.static("Always. All the time.");
+    console.static("That story makes you what you are.")
+    console.static("We build ourselves out of that story.")
+    console.static("(Patrick Rothfuss)")
   }
 
 }
