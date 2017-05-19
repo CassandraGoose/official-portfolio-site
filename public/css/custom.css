@@ -94,7 +94,7 @@ a:hover {
 }
 
 .hey {
-  animation: sparkle6 1s 1s infinite alternate;
+  animation: sparkle7 2s 1s infinite alternate;
 }
 .outer {
   z-index: 2;
@@ -320,6 +320,45 @@ a:hover {
     color: white;
   }
   45%{
+    color: black;
+  }
+  100%{
+    color: white;
+  }
+}
+
+@keyframes sparkle{
+  0%{
+    color: black;
+  }
+  3% {
+    color: teal;
+  }
+  18% {
+    color: black;
+  }
+  20%{
+    color: white;
+  }
+  25%{
+    color: grey;
+  }
+  40%{
+    color: white;
+  }
+  45%{
+    color: black;
+  }
+  60% {
+    color: teal;
+  }
+  63%{
+    color: black;
+  }
+  68%{
+    color: white;
+  }
+  90%{
     color: black;
   }
   100%{
