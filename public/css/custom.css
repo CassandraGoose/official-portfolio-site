@@ -81,7 +81,21 @@ a:hover {
   animation: sparkle3 2s 1s infinite alternate;
 }
 
+.pop {
+  animation: sparkle4 2s 1s infinite alternate;
+}
 
+.dizzy {
+  animation: sparkle5 2s 1s infinite alternate;
+}
+
+.mad {
+  animation: sparkle6 2s 1s infinite alternate;
+}
+
+.hey {
+  animation: sparkle6 1s 1s infinite alternate;
+}
 .outer {
   z-index: 2;
   border: solid;
@@ -313,6 +327,39 @@ a:hover {
   }
 }
 
+@keyframes sparkle4{
+  0%{
+    color: black;
+  }
+  10% {
+    color: white;
+  }
+  15% {
+    color: black;
+  }
+  20%{
+    color: white;
+  }
+  25%{
+    color: grey;
+  }
+  30% {
+    color: white;
+  }
+  35% {
+    color: black;
+  }
+  40%{
+    color: white;
+  }
+  45%{
+    color: black;
+  }
+  100%{
+    color: white;
+  }
+}
+
 @keyframes sparkle2{
   0%{
     color: white;
@@ -327,6 +374,160 @@ a:hover {
     color: white;
   }
   45%{
+    color: black;
+  }
+  100%{
+    color: white;
+  }
+}
+
+@keyframes sparkle5{
+  0%{
+    color: white;
+  }
+  15% {
+    color: black;
+  }
+  20%{
+    color: teal;
+  }
+  25%{
+    color: black;
+  }
+  35% {
+    color: teal;
+  }
+  40% {
+    color: black;
+  }
+  45% {
+    color: white;
+  }
+  50% {
+    color: teal;
+  }
+  60% {
+    color: black;
+  }
+  70%{
+    color: white;
+  }
+  75%{
+    color: black;
+  }
+  80% {
+    color: white;
+  }
+  85% {
+    color: teal;
+  }
+  90% {
+    color: black;
+  }
+  95% {
+    color: teal;
+  }
+  100%{
+    color: white;
+  }
+}
+
+
+@keyframes sparkle2{
+  0%{
+    color: white;
+  }
+  20%{
+    color: grey;
+  }
+  25%{
+    color: black;
+  }
+  70%{
+    color: white;
+  }
+  45%{
+    color: black;
+  }
+  100%{
+    color: white;
+  }
+}
+
+@keyframes sparkle6{
+  0%{
+    color: white;
+  }
+  5%{
+    color: black;
+  }
+  10%{
+    color: white;
+  }
+  13%{
+    color: black;
+  }
+  15% {
+    color: white;
+  }
+  20%{
+    color: teal;
+  }
+  25%{
+    color: black;
+  }
+  35% {
+    color: teal;
+  }
+  38% {
+    color: white;
+  }
+  40% {
+    color: black;
+  }
+  42%{
+    color: teal;
+  }
+  45% {
+    color: white;
+  }
+  50% {
+    color: teal;
+  }
+  60% {
+    color: black;
+  }
+  63% {
+    color: teal;
+  }
+  67%{
+    color: black;
+  }
+  70%{
+    color: white;
+  }
+  75%{
+    color: black;
+  }
+  80% {
+    color: white;
+  }
+  85% {
+    color: teal;
+  }
+  88%{
+    color:white;
+  }
+  90% {
+    color: black;
+  }
+  92%{
+    color: teal;
+  }
+  95% {
+    color: teal;
+  }
+  97%{
     color: black;
   }
   100%{

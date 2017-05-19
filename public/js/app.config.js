@@ -53,6 +53,10 @@
         name: 'uxplor',
         url: '/uxplor',
         component: 'uxplor'
+      }).state({
+        name: 'pod',
+        url: '/pod',
+        component: 'pod'
       })
     $urlRouterProvider.otherwise('/')
   }

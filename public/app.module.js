@@ -2,37 +2,40 @@
 
   angular.module('app', ['ui.router'])
     .component('home', {
-      templateUrl: '/home.html',
+      templateUrl: '/home/home.html',
       controller: "HomeController"
     }).component('about', {
-      templateUrl: '/about.html',
+      templateUrl: '/about/about.html',
       controller: "AboutController"
     }).component('projects', {
-      templateUrl: '/projects.html',
+      templateUrl: '/projects/projects.html',
       controller: "ProjectsController"
     }).component('contact', {
-      templateUrl: '/contact.html',
+      templateUrl: '/contact/contact.html',
       controller: "ContactController"
     }).component('imageinspire', {
-      templateUrl: '/imageinspire.html',
+      templateUrl: '/image/imageinspire.html',
       controller: "ImageInspireController"
     }).component('ronme', {
-      templateUrl: 'ronme.html',
+      templateUrl: '/ron/ronme.html',
       controller: "RonMeController"
     }).component('secrets', {
-      templateUrl: 'secrets.html',
+      templateUrl: '/secrets/secrets.html',
       controller: "SecretsController"
     }).component('shouldi', {
-      templateUrl: 'shouldi.html',
+      templateUrl: '/shouldi/shouldi.html',
       controller: "ShouldIController"
     }).component('textsense', {
-      templateUrl: 'textsense.html',
+      templateUrl: '/text/textsense.html',
       controller: 'TextSenseController'
     }).component('uxplor', {
-      templateUrl: 'uxplor.html',
+      templateUrl: '/uxplor/uxplor.html',
       controller: 'UxplorController'
     }).component('tinydev', {
-      templateUrl: 'tinydev.html',
+      templateUrl: '/tiny/tinydev.html',
       controller: 'TinyDevController'
+    }).component('pod', {
+      templateUrl: '/pod/pod.html',
+      controller: 'PodController'
     })
 }())
