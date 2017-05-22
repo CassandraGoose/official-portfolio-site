@@ -6,6 +6,7 @@ function AboutController($http, $stateParams, $state) {
   const vm = this
     //base urL?
 
-  vm.$onInit = function() {
+  vm.$onInit = function () {
+
   }
 }
