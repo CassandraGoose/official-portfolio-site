@@ -109,6 +109,16 @@ a:hover {
   margin: 7em;
 }
 
+.maxi {
+  max-width: 40%;
+  margin: 5%;
+}
+
+/*.image-hold {
+  max-width: 40%;
+  max-height: 35%;
+}*/
+
 .inner {
   z-index: 2;
   border: groove;
